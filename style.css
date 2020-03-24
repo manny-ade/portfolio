@@ -1,0 +1,62 @@
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.w3-jumbo{
+  font-family: "Bebas Neue",  cursive;
+}
+.jumbo-subtext{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 125%;
+}
+
+.w3-image{
+  width: auto;
+  height: auto;
+  border-radius: 100px;
+}
+.subheadings{
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: underline;
+}
+#about{
+  background-color: #5ce1e6;
+  width: auto;
+  padding: 5%;
+  align-items: center;
+  border-radius: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.w3-padding-16 {
+  font-size: 325%;
+}
+
+#aboutmetitle{
+  font-size: 500%;
+
+}
+#noitalic{
+  font-style: italic;
+  font-weight: bold;
+}
+
+#MANNY{
+color: #5ce1e6;
+}
+.w3-image{
+  padding: inherit;
+  align-self: center;
+}
+
+.w3-text-light-grey{
+  font-family: "Bebas Neue"; cursive;
+}
+
+.addressln{
+text-indent: 4.4em;
+}
