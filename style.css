@@ -6,6 +6,25 @@
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
+html{
+  scroll-behavior: smooth;
+  
+  
+}
+.w3-black{
+  animation: fadeInAnimation ease 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
 .w3-jumbo{
   font-family: "Bebas Neue",  cursive;
 }
@@ -15,8 +34,8 @@
 }
 
 .w3-image{
-  width: auto;
-  height: auto;
+  width: 50%;
+  height: 50%;
   border-radius: 100px;
 }
 .subheadings{
@@ -38,7 +57,7 @@
 }
 
 #aboutmetitle{
-  font-size: 500%;
+  font-size: 450%;
 
 }
 #noitalic{
@@ -55,7 +74,7 @@ color: #5ce1e6;
 }
 
 .w3-text-light-grey{
-  font-family: "Bebas Neue"; cursive;
+  font-family: "Bebas Neue";
 }
 
 .addressln{
@@ -64,4 +83,25 @@ text-indent: 4.4em;
 
 #languagelist{
   padding-top: -10%;
+}
+
+.w3-section{
+  margin: auto;
+  padding: auto;
+}
+
+#instagramlink{
+  padding-right: 10px;
+}
+
+#linkedinlink{
+  padding-right: 10px;
+}
+
+#twitterlink{
+  padding-right: 10px;
+}
+
+#mediumlink{
+  padding-right: 10px;
 }
