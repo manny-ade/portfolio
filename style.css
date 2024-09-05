@@ -1,6 +1,6 @@
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
+.w3-sidebar {width: 120px;background: #ffffff;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
@@ -12,9 +12,17 @@ html{
   
 }
 .w3-black{
-  animation: fadeInAnimation ease 3.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  background-color: #ffffff !important;
+}
+
+.w3-black, .w3-hover-black:hover {
+  color: #000000 !important; 
+  background-color: #ffffff !important;
+}
+
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
 }
 
 @keyframes fadeInAnimation {
@@ -57,8 +65,12 @@ html{
 }
 
 #aboutmetitle{
-  font-size: 450%;
+  font-size: 400%;
+  margin-bottom: 0px;
+}
 
+#linespacer{
+  margin-top: 0px;
 }
 #noitalic{
   font-style: italic;
@@ -94,6 +106,30 @@ text-indent: 4.4em;
   padding-right: 10px;
 }
 
+#igicon{
+  color: #000000;
+}
+
+#linkedin{
+  color: #000000;
+}
+
+#mediumicon{
+  color: #000000;
+}
+
+#dribbbleicon{
+  color: #000000;
+}
+
+#phone{
+  color: #000000;
+}
+
+#email{
+  color: #000000;
+}
+
 #linkedinlink{
   padding-right: 10px;
 }
@@ -111,6 +147,9 @@ text-indent: 4.4em;
   }
   
   body {
+    animation: fadeInAnimation ease 3s !important;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Ubuntu;
